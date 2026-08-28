@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "title": "KAYO — 日本的住宿、车票与路线",
+    "description": "日本的窗口：旅馆与町屋、指定席、已经排好的行程。日语、英语、中文在同一柜台。"
+  },
+  "brand": {
+    "name": "往来",
+    "kana": "KAYO",
+    "stamp": "通",
+    "tagline": "住宿、车票、路线，放在同一窗口。"
+  },
+  "nav": {
+    "hotels": "住宿",
+    "tickets": "车票",
+    "routes": "路线",
+    "desk": "窗口"
+  },
+  "search": {
+    "hotels": "住宿",
+    "tickets": "车票",
+    "routes": "路线",
+    "city": "城市",
+    "anyCity": "牌上全部城市",
+    "checkIn": "抵达",
+    "checkOut": "离开",
+    "guests": "人数",
+    "from": "出发",
+    "to": "到达",
+    "date": "出行日",
+    "pax": "人数",
+    "nights": "晚数",
+    "anyNights": "不限晚数",
+    "submitHotels": "查看空房",
+    "submitTickets": "查看时刻",
+    "submitRoutes": "查看行程",
+    "guestOne": "1人",
+    "guestN": "{n}人",
+    "nightN": "{n}晚"
+  },
+  "home": {
+    "kicker": "京都站 窗口",
+    "headline": "把住宿、座位和路线写在同一张单据上。",
+    "lead": "KAYO是窗口，不是叫卖的市场。牌上只有七家住宿、八张票、四条路线——是可以核对的数目，不是把全国扫进目录。",
+    "photoCaption": "京都站中央大厅，早晨。窗口日本时间九点开门。",
+    "boardTitle": "今日揭示",
+    "boardLead": "八班。时刻为首班与末班，日本标准时。",
+    "colService": "车次／航班",
+    "colPath": "区间",
+    "colTime": "耗时",
+    "colFrom": "起价",
+    "housesTitle": "我们真正会安排入住的房子",
+    "housesLead": "不是带着微笑大堂的塔楼。是写明站名和步行分钟的房间。",
+    "routesTitle": "已经排好的路线",
+    "routesLead": "每条都写明省掉了什么。富良野薰衣草是七月，纸上有写。",
+    "notesTitle": "用过窗口的人留下的字",
+    "notesLead": "四个人。我们不买评价。",
+    "deskCta": "这个窗口怎么运作",
+    "countHotels": "{n}家住宿",
+    "countTickets": "{n}张票",
+    "countRoutes": "{n}条路线"
+  },
+  "hotels": {
+    "title": "住宿",
+    "lead": "旅馆、町屋、运河边的商务饭店、温泉、札幌小屋、那霸民宿。步行分钟是量过的，不写「近车站」。",
+    "empty": "该城市牌上没有。请清空城市，或另选一个。",
+    "fromNight": "一晚 {price}起",
+    "rooms": "{n}间",
+    "rating": "{n}（{count}条）",
+    "book": "办理预约",
+    "back": "返回住宿列表",
+    "station": "最近车站",
+    "hours": "住宿处窗口",
+    "checkIn": "入住 {time}",
+    "checkOut": "退房 {time}",
+    "amenities": "房里有的",
+    "address": "地址",
+    "kind": {
+      "ryokan": "旅馆",
+      "machiya": "町屋",
+      "business": "商务饭店",
+      "onsen": "温泉宿",
+      "lodge": "小屋",
+      "guesthouse": "民宿"
+    }
+  },
+  "tickets": {
+    "title": "车票",
+    "lead": "新干线、浪漫特快、两班国内线、JR渡轮。全国JR Pass不能用的班次，写在该行。",
+    "empty": "该区间没有班次。请对调车站，或清空一端。",
+    "duration": "耗时",
+    "departs": "每日{n}班，{first}–{last}（日本时间）",
+    "unreserved": "自由席",
+    "reserved": "指定席",
+    "green": "绿色车厢",
+    "none": "无此席",
+    "book": "预留座位",
+    "back": "返回时刻表",
+    "operator": "运营",
+    "kind": {
+      "shinkansen": "新干线",
+      "limited_express": "特急",
+      "local": "普通车",
+      "domestic_flight": "国内航班",
+      "ferry": "渡轮"
+    }
+  },
+  "routes": {
+    "title": "路线",
+    "lead": "四条。晚数，以及两位成人住宿加普通车指定席的大约价格。例外写在各页。",
+    "empty": "牌上没有这个晚数的路线。",
+    "nights": "{n}晚",
+    "from": "两人 {price}起",
+    "stops": "过夜城市",
+    "book": "预留这条路线",
+    "back": "返回路线",
+    "includes": "价格里有的",
+    "omits": "价格里没有的"
+  },
+  "book": {
+    "title": "预约单据",
+    "lead": "这是预留房间或座位的单据，不是扣款。住宿与铁路的确认另发。",
+    "name": "与护照一致的姓名",
+    "email": "电子邮箱",
+    "guests": "人数",
+    "notes": "给窗口的备注",
+    "notesPh": "大件行李、晚到、不吃鱼…",
+    "seat": "席别",
+    "submit": "在单据上盖章",
+    "error": "单据未受理。请核姓名、邮箱和日期。",
+    "nights": "{n}晚"
+  },
+  "booking": {
+    "title": "已在窗口预留",
+    "lead": "到住宿请出示此编号；车票请自行留存。状态是「预留」，不是已付款。",
+    "ref": "整理编号",
+    "status": "预留",
+    "total": "估算合计",
+    "when": "受理"
+  },
+  "desk": {
+    "title": "窗口",
+    "lead": "一段短的事务备忘。不是口号。",
+    "hours": "窗口 9:00–21:00（日本时间）。之后是夜间字条。",
+    "p1t": "KAYO是什么",
+    "p1": "七家住宿、八张票、四条路线的目录，放在PostgreSQL里，以日语、英语、中文出示。我们不把全国搜刮进来。牌上的房子，都有人量过步行分钟。",
+    "p2t": "JR Pass与希望号",
+    "p2": "全国JR Pass不能坐希望号、瑞穗号。光号、樱号、光辉号、宫岛JR渡轮，各张票上有写。不要为只坐希望号的计划去买Pass。",
+    "p3t": "交通IC卡",
+    "p3": "Suica、PASMO（东日本），ICOCA（西日本），Kitaca（札幌）。不能支付新干线指定席。大阪那家饭店柜台可为ICOCA充值。",
+    "p4t": "行李",
+    "p4": "便利店的宅急便在本州多是隔日，冲绳更久。若住箱根杉汤，请写明有大箱——最后一段是石阶。",
+    "p5t": "柜台的语言",
+    "p5": "窗口的工作语言是日语。英语和简体中文按完整句子写，不是逐词对译。读繁体也不难跟上中文页。专有地名保持日文写法（金沢、那覇）。"
+  },
+  "footer": {
+    "hours": "窗口 9:00–21:00（日本时间）",
+    "copy": "KAYO窗口。目录金额为日元、含税。按各页所写，计一晚或一座。",
+    "note": "这里的预约是预留。铁路与住宿的确认另发。"
+  },
+  "amenities": {
+    "tatami": "榻榻米房间",
+    "breakfast": "含早餐",
+    "dinner": "可加晚餐",
+    "english_desk": "柜台英语服务到所写时刻",
+    "luggage": "入住前可寄行李",
+    "yukata": "房内浴衣",
+    "shared_bath": "公用浴池",
+    "private_bath": "独立浴室",
+    "onsen": "院内温泉",
+    "late_checkin": "字条说明可晚到",
+    "ic_card_charge": "柜台可充IC卡",
+    "laundry": "投币洗衣",
+    "kitchen": "公用厨房"
+  },
+  "common": {
+    "all": "全部",
+    "yen": "日元"
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "title": "KAYO — lodgings, tickets and routes in Japan",
+    "description": "A ticket-window for Japan: ryokan and machiya, reserved seats, plotted itineraries. English, Japanese and Chinese at the same counter."
+  },
+  "brand": {
+    "name": "KAYO",
+    "kana": "JST DESK",
+    "stamp": "通",
+    "tagline": "One counter for lodgings, tickets and routes."
+  },
+  "nav": {
+    "hotels": "Lodgings",
+    "tickets": "Tickets",
+    "routes": "Routes",
+    "desk": "The desk"
+  },
+  "search": {
+    "hotels": "Lodgings",
+    "tickets": "Tickets",
+    "routes": "Routes",
+    "city": "City",
+    "anyCity": "Any city on the board",
+    "checkIn": "Arrive",
+    "checkOut": "Leave",
+    "guests": "People",
+    "from": "From",
+    "to": "To",
+    "date": "Travel day",
+    "pax": "Passengers",
+    "nights": "Nights",
+    "anyNights": "Any length",
+    "submitHotels": "See vacant rooms",
+    "submitTickets": "See the timetable",
+    "submitRoutes": "See plotted routes",
+    "guestOne": "1 person",
+    "guestN": "{n} people",
+    "nightN": "{n} nights"
+  },
+  "home": {
+    "kicker": "Kyoto Station, ticket window",
+    "headline": "Put the lodging, the seat and the route on the same slip.",
+    "lead": "KAYO is a desk, not a marketplace shout. We keep 7 houses, 8 tickets and 4 plotted routes on the board — numbers you can check, not a catalogue of everything in the country.",
+    "photoCaption": "Kyoto Station concourse, morning. The window opens at 9:00 JST.",
+    "boardTitle": "On the board today",
+    "boardLead": "Eight services. Times are first and last departures, Japan Standard Time.",
+    "colService": "Service",
+    "colPath": "Path",
+    "colTime": "Hours",
+    "colFrom": "From",
+    "housesTitle": "Houses we will actually put you in",
+    "housesLead": "Not a tower with a smiling lobby. Rooms with a walk time to a named station.",
+    "routesTitle": "Routes already plotted",
+    "routesLead": "Each one states what it leaves out. Furano lavender is July; this is written down.",
+    "notesTitle": "Notes from people who used the window",
+    "notesLead": "Four voices. We do not buy reviews.",
+    "deskCta": "How this desk works",
+    "countHotels": "{n} houses",
+    "countTickets": "{n} tickets",
+    "countRoutes": "{n} routes"
+  },
+  "hotels": {
+    "title": "Lodgings",
+    "lead": "Ryokan, machiya, a canal business hotel, an onsen, a Sapporo lodge, a Naha guesthouse. Walk minutes are measured, not “close to the station”.",
+    "empty": "Nothing on the board for that city. Clear the city, or pick another.",
+    "fromNight": "from {price} a night",
+    "rooms": "{n} rooms",
+    "rating": "{n} from {count} notes",
+    "book": "File a reservation",
+    "back": "Back to lodgings",
+    "station": "Station",
+    "hours": "Desk hours at the house",
+    "checkIn": "Check-in {time}",
+    "checkOut": "Check-out {time}",
+    "amenities": "What is in the house",
+    "address": "Address",
+    "kind": {
+      "ryokan": "Ryokan",
+      "machiya": "Machiya",
+      "business": "Business hotel",
+      "onsen": "Onsen inn",
+      "lodge": "Lodge",
+      "guesthouse": "Guesthouse"
+    }
+  },
+  "tickets": {
+    "title": "Tickets",
+    "lead": "Shinkansen, a Romancecar, two domestic flights, a JR ferry. Where the national JR Pass does not apply, we say so on the row.",
+    "empty": "No service on that path. Reverse the stations, or clear one end.",
+    "duration": "Journey",
+    "departs": "{n} a day, {first}–{last} JST",
+    "unreserved": "Unreserved",
+    "reserved": "Reserved",
+    "green": "Green Car",
+    "none": "Not sold",
+    "book": "Hold a seat",
+    "back": "Back to the timetable",
+    "operator": "Operator",
+    "kind": {
+      "shinkansen": "Shinkansen",
+      "limited_express": "Limited express",
+      "local": "Local",
+      "domestic_flight": "Domestic flight",
+      "ferry": "Ferry"
+    }
+  },
+  "routes": {
+    "title": "Routes",
+    "lead": "Four itineraries with night counts and a price for two adults, lodgings plus ordinary reserved seats, unless the page says otherwise.",
+    "empty": "No route of that length on the board.",
+    "nights": "{n} nights",
+    "from": "from {price} for two",
+    "stops": "Sleeps in",
+    "book": "Hold this route",
+    "back": "Back to routes",
+    "includes": "What the price holds",
+    "omits": "What it leaves out"
+  },
+  "book": {
+    "title": "Reservation slip",
+    "lead": "This holds the room or the seat. It is not a charge. The house or the railway still confirms.",
+    "name": "Name as in the passport",
+    "email": "Email",
+    "guests": "People",
+    "notes": "Note to the desk",
+    "notesPh": "Large suitcase, late train, no fish…",
+    "seat": "Seat",
+    "submit": "Stamp the slip",
+    "error": "The slip did not take. Check the name, the mail, and the dates.",
+    "nights": "{n} nights"
+  },
+  "booking": {
+    "title": "Held at the window",
+    "lead": "Show this reference at the house or keep it for the ticket. Status is held, not paid.",
+    "ref": "Reference",
+    "status": "Held",
+    "total": "Quoted total",
+    "when": "Filed"
+  },
+  "desk": {
+    "title": "The desk",
+    "lead": "A short clerk’s memo. Not a slogan.",
+    "hours": "Window hours 9:00–21:00 JST. After that, the night note.",
+    "p1t": "What KAYO is",
+    "p1": "A catalogue of 7 houses, 8 tickets and 4 routes, kept in PostgreSQL, shown in Japanese, English and Chinese. We do not scrape the whole country. If a house is on the board, someone here has the walk time in minutes.",
+    "p2t": "JR Pass and Nozomi",
+    "p2": "The national JR Pass does not cover Nozomi or Mizuho. Hikari, Sakura, Kagayaki and the Miyajima JR ferry are written as such on each ticket. Do not buy a Pass for a Nozomi-only plan.",
+    "p3t": "IC cards",
+    "p3": "Suica and PASMO (east), ICOCA (west), Kitaca (Sapporo). They do not pay the Shinkansen reserved seat. The Osaka house can charge ICOCA at the desk.",
+    "p4t": "Luggage",
+    "p4": "Yamato Takkyubin from a convenience store takes a day on Honshu, longer to Okinawa. If you stay at Sugi-yu in Hakone, write that you have a large case — the last stretch is stone steps.",
+    "p5t": "Languages at the counter",
+    "p5": "Japanese is the working language of the window. English and Simplified Chinese are written as full sentences, not calques. Traditional-character readers will still follow the Chinese pages; proper names stay in the Japanese forms (金沢, 那覇)."
+  },
+  "footer": {
+    "hours": "Window 9:00–21:00 JST",
+    "copy": "KAYO desk. Catalogue figures are yen, tax in, for the night or the seat as written.",
+    "note": "A booking here is a hold. Rail and houses confirm separately."
+  },
+  "amenities": {
+    "tatami": "Tatami rooms",
+    "breakfast": "Breakfast included",
+    "dinner": "Dinner can be added",
+    "english_desk": "English at the desk until the hour written",
+    "luggage": "Luggage before check-in",
+    "yukata": "Yukata in the room",
+    "shared_bath": "Shared bath",
+    "private_bath": "Private bath",
+    "onsen": "Onsen on the grounds",
+    "late_checkin": "Late check-in by note",
+    "ic_card_charge": "IC card charge at the desk",
+    "laundry": "Coin laundry",
+    "kitchen": "Guest kitchen"
+  },
+  "common": {
+    "all": "All",
+    "yen": "JPY"
+  }
+}
